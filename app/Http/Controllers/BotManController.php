@@ -20,10 +20,10 @@ class BotManController extends Controller
             if ($message == 'halo') {
                 $this->askName($botman);
             } else if ($message == 'ya saya juga' || $message == 'terima kasih') {
-                $botman->reply("Lalu, kamu suka puisi atau tidak?");
+                $botman->reply("Lalu, kamu suka puisi atau tidak? Jawab `ya suka` atau jawab `tidak suka`");
             } else if ($message == 'tidak') {
                 $botman->reply("Baiklah... Terima kasih sudah menyempatkan waktu untuk ada disini ya ✋.");
-            } else if ($message == 'ya saya suka' ||  $message == 'Benar saya suka' || $message == 'iya') {
+            } else if ($message == 'ya' || $message == 'iya') {
                 $botman->reply("Belajar puisi bareng aku yuk? Ketik `Apa itu puisi?` untuk tau definisi puisi.");
             } else if ($message == 'Apa itu puisi?' || $message == 'apa itu puisi?' || $message == 'Apa itu puisi') {
                 $botman->reply("Puisi atau sajak merupakan ragam sastra yang bahasanya terikat oleh irama, mantra, rima serta penyusunan larik dan bait. Biasanya puisi berisi ungkapan penulis mengenai emosi, pengalaman maupun kesan yang kemudian dituliskan dengan bahasa yang baik sehingga dapat berima dan enak untuk dibaca. Nah sekarang ajak aku mencari jenis-jenis puisi dengan ketik `jenis puisi`.");
