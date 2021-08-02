@@ -1387,7 +1387,7 @@
         frameEndpoint: "/botman/chat",
         timeFormat: "HH:MM",
         dateTimeFormat: "m/d/yy HH:MM",
-        title: "ChatBot",
+        title: "kiraBot",
         cookieValidInDays: 1,
         introMessage: "",
         placeholderText: "Send a message...",
